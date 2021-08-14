@@ -1,0 +1,73 @@
+.maincontact{
+    background-color: #c4c4c4;
+}
+.contactcontainer h1{
+    font-size: 4rem;
+    text-align: center;
+    align-items: center;
+    color: #58935E;
+    padding-top: 300px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.contactcontainer p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 645;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 800px;
+}
+.contactcontainer .socmedlogo{
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+.contactcontainer #facebook{
+    background-color: #4267B2;
+}
+.contactcontainer #twitter{
+    background-color: #1DA1F2;
+}
+.contactcontainer #instagram{
+    background-color: #8A3AB9;
+}
+.contactcontainer #linkedin{
+    background-color: #0072B1;
+}
+.longline{
+    background-color: black;
+    margin: auto;
+    left: 50%;
+    height: 2px;
+    width:82%;
+    max-width: 1440px ;
+    text-align: center;
+    justify-content: center;
+}
+.copyright{
+    margin: auto;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+@media screen and (max-width: 600px){
+    .contactcontainer h1{
+        font-size: 2rem;
+        margin-top: 3rem;
+    }   
+    .aboutcontent h2{
+        font-size: 2rem;
+    }
+    .contactcontainer p{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+    .copyright{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,244 @@
+.maincertification{
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.certificationcontainer{
+    margin: 0 auto;
+    height: 2600px;
+    background-color: #ffffff;
+    z-index: 1;
+    width: 100%;
+    max-width: 1441px;
+    padding: 0 30px;
+}
+
+.certfiicationcontent img{
+    height: 70%;
+    width: 70%;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.certificationcontainer h1{
+    font-size: 4REM;
+    text-align: center;
+    background-color: #181D99;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 272px;
+    padding-bottom: 110px;
+}
+.certificationcontent{
+    display: grid;
+    grid-template-columns: 30% 12% 65%;
+    grid-template-rows: repeat(6, 1fr);
+    margin: 0 auto;
+    justify-self: center;
+
+    align-items: center;
+    line-height: 1.5cm;
+    text-align: left;
+    height: 100%;
+    max-height: 1800px;
+    background-color: #ffffff;
+    z-index: 1;
+    width: 100%;
+    max-width: 1441px;
+    padding: 0 90px;
+    font-weight: 700;
+}
+.certificationcontent h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    color: #181D99;
+}
+.certificationcontent{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;    
+}
+.wall{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 60%;
+    background-color: #c4c4c4;
+    width: 0.05cm;
+}
+.morecertification{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 645;
+    padding-top: 100px;
+}
+.logo{
+    max-width: 180px;
+}
+.css{
+    max-width: 180px;
+    margin: 0 auto;
+}
+.online-cw{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 300px;
+}
+.dicoding{
+    margin-right: 60px;
+}
+.certificationbutton{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing:0.09em;
+    background-color: black;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+.certificationbutton a{
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-decoration: none;
+}
+.certificationbutton:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: black;
+    background: #c4c4c4;
+    transition: all 0.35s;
+    border-radius: 16px;
+}
+.certificatebutton{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing:0.09em;
+    background-color: black;
+    padding: 7px 32px;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+.certificatebutton a{
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-decoration: none;
+}
+.certificatebutton:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: black;
+    background: #c4c4c4;
+    transition: all 0.35s;
+    border-radius: 16px;
+}
+
+.certificatebutton:hover{
+    color: black;
+}
+
+.certificatebutton:hover:after{
+    width: 100%;
+}
+.foremore img{
+    padding-top: 20px;
+}
+.disclaimer{
+    padding-bottom: 28px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+@media screen and (max-width: 1200px){
+    .certificationcontainer{
+        height: fit-content;
+    }
+    .certificationcontent{
+        display:grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+    .wall{
+        display: none;
+    }
+    .certificationcontent{
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 4rem;
+        height: auto;
+    }
+    .certificationcontainer h1{
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    .certificationcontainer h2{
+        display: none;
+    }
+    .certificationcontent #exp{
+        display: none;
+    }
+    .certificatebutton{
+        margin-bottom:100px;
+    }
+
+    img{
+        justify-content: center;
+        align-items: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }    
+    .foremore{
+        position: relative;
+        height: auto;
+        margin-top: 1rem;
+        align-items: baseline;
+    }
+    .foremore{
+        padding-top: 750px;
+    }
+
+}
